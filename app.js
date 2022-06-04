@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
             let temperatureSection = document.querySelector('.degree-section');
             let temperatureSpan = document.querySelector('.degree-section span');
 
-            const appId = "eaeafe9d4353b761a26cffadea969d6c";
+            const appId = "{APPID}";
 
             const request = `https://api.openweathermap.org/data/2.5/weather?appid=${appId}&units=metric&lat=${lat}&lon=${lon}`;
 
