@@ -4,8 +4,8 @@ window.addEventListener('load', () => {
 
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
-            lon = position.coords.longitude;
-            lat = position.coords.latitude;
+            let lon = position.coords.longitude;
+            let lat = position.coords.latitude;
             let temperatureDescription = document.querySelector('.temperature-description');
             let temperatureDegree = document.querySelector('.temperature-degree');
             let locationTimezone = document.querySelector('.location-timezone');
